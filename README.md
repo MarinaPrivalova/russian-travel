@@ -19,4 +19,4 @@
 * Метатеги корректного масштабирования страницы
 * Медиазапросы
 
-[Ссылка на проект на GitHub]
+[Ссылка на проект на GitHub](https://marinaprivalova.github.io/russian-travel/)
