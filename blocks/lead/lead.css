@@ -1,0 +1,16 @@
+.lead {
+    width: 76.9vw;
+    margin: auto;
+}
+
+@media (min-width:1024px) and (max-width: 1279.98px) {
+    .lead {
+        width: 90.6vw;
+    }
+} 
+
+@media screen and (max-width: 1023.98px) {
+    .lead {
+        width: 100vw;
+    }
+}
