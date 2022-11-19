@@ -1,7 +1,7 @@
 .photo-grid {
     margin: 92px auto 92px;
     display: grid;
-    width: 92.5vw;
+    max-width: 1184px;
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
@@ -10,21 +10,21 @@
 
 @media (min-width:1024px) and (max-width: 1279.98px) {
     .photo-grid {
-        width: 90.6vw;
+        max-width: 928px;
         gap: 14px;
     }
 } 
 
 @media (min-width:768px) and (max-width: 1023.98px) {
     .photo-grid {
-        width: 93.75vw;
+        max-width: 720px;
         margin: 88px auto 88px;
     }
 }
 
 @media screen and (max-width: 767.98px) {
     .photo-grid {
-        width: 90vw;
+        max-width: 288px;
         margin: 64px auto 64px;
         gap: 12px;
 }

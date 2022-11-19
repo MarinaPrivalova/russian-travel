@@ -41,6 +41,6 @@
          url(../fonts/Inter-BlackItalic.woff) format("woff");
   }
   
-.page {
+.page__container {
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
 }

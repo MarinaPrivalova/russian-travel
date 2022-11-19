@@ -10,3 +10,7 @@
 .lang__link:hover {
     text-decoration: underline;
 }
+
+.lang__link:active {
+    text-decoration: underline;
+}

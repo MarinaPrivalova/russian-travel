@@ -1,22 +1,22 @@
 .places {
-    width: 76.9vw;
+    max-width: 984px;
     margin: auto;
 }
 
 @media (min-width:1024px) and (max-width: 1279.98px) {
     .places {
-        width: 90.6vw;
+        max-width: 928px;
     }
 } 
 
 @media (min-width:768px) and (max-width: 1023.98px) {
     .places {
-        width: 93.75vw;
+        max-width: 720px;
     }
 }
 
 @media screen and (max-width: 767.98px) {
     .places {
-        width: 100vw;
+        max-width: 320px;
     }
 } 
