@@ -15,15 +15,7 @@
     src: url(../fonts/Inter-Bold.woff2) format("woff2"),
          url(../fonts/Inter-Bold.woff) format("woff");
   }
-  @font-face {
-    font-family: 'Inter';
-    font-style:  italic;
-    font-weight: 700;
-    font-display: swap;
-    src: url(../fonts/Inter-BoldItalic.woff2) format("woff2"),
-         url(../fonts/Inter-BoldItalic.woff) format("woff");
-  }
-
+  
   @font-face {
     font-family: 'Inter';
     font-style:  normal;
@@ -32,15 +24,3 @@
     src: url(../fonts/Inter-Black.woff2) format("woff2"),
          url(../fonts/Inter-Black.woff) format("woff");
   }
-  @font-face {
-    font-family: 'Inter';
-    font-style:  italic;
-    font-weight: 900;
-    font-display: swap;
-    src: url(../fonts/Inter-BlackItalic.woff2) format("woff2"),
-         url(../fonts/Inter-BlackItalic.woff) format("woff");
-  }
-  
-.page__container {
-    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
-}

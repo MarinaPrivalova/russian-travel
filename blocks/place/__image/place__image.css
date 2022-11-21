@@ -1,6 +1,25 @@
 .place__image {
-    width: 100%;
+    max-width: 460px;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: center;
     align-self: flex-start;
 }
+
+@media (min-width:1024px) and (max-width: 1279.98px) {
+    .place__image {
+        max-width: 440px;
+    }
+} 
+
+@media (min-width:768px) and (max-width: 1023.98px) {
+    .place__image {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .place__image {
+        max-width: 320px;
+    }
+} 

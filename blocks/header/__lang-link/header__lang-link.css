@@ -1,0 +1,12 @@
+.header__lang-link {
+    list-style: none;
+    margin-right: 18px;
+}
+
+.header__lang-link:last-of-type {
+margin-right: 0;
+}
+
+.header__lang-link:active {
+text-decoration: underline;
+}
